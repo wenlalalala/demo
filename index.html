@@ -1,0 +1,309 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> 家庭环境与性别刻板印象</title>
+    <meta name="description" content="course, web, coding">
+    <meta name="author" content="互助组">
+	<!--step 1.2 响应式布局-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!--step 1.1 引入bootstrap的css样式-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+	<!--step 1.2 响应式布局-->
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+	
+	<style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+	 .box{position:relative;}
+	 .word1{left:50px;top:80px;position:absolute;font-size:30px;color:white;text-align:center;line-height:30px}
+	 .word2{left:50px;top:130px;position:absolute;font-size:20px;color:white;text-align:left;line-height:30px}
+	 .word3{left:50px;top:200px;position:absolute;font-size:30px;color:white;text-align:center;line-height:30px}
+	 .word4{left:50px;top:250px;position:absolute;font-size:20px;color:white;text-align:left;line-height:30px}
+	 .word5{left:50px;top:320px;position:absolute;font-size:30px;color:white;text-align:center;line-height:30px}
+	 .word6{left:50px;top:370px;position:absolute;font-size:20px;color:white;text-align:left;line-height:30px}
+    </style>
+  </head>
+
+  <body>
+	
+	<!-- step 2 导航栏-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#">实验主页</a>
+          <div class="nav-collapse collapse">
+			<!-- step 2.1下拉菜单-->
+            <ul class="nav">
+              <li class="active"><a href="#">实验介绍</a></li>
+              <li><a href="#family">家庭环境</a></li>
+              <li><a href="#gender">性别印象</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">我们 <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">成员介绍</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">小组分工</a></li>
+                </ul>
+              </li>
+            </ul>
+			<!--end 下拉菜单-->
+			<!-- step 2.2 表单 -->
+            <form class="navbar-form pull-right">
+              <input class="span2" type="text" placeholder="search">
+              <button type="submit" class="btn" >搜索</button>
+            </form>
+			<!-- end 表单-->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- 欢迎参加我们的实验 -->
+      <div class="hero-unit" style="background-color:#778899">
+        <h1 style="color:#F8F8FF">欢迎参加我们的实验</h1>
+        <p style="color:#F5F5F5;margin-top:30px;margin-bottom:30px;">
+		【实验简介】<br/>这是一个观察性别刻板印象与家庭环境具体状况有无相关性的研究。研究特定个人的性别刻板印象的形成、发展受家庭环境影响的程度，归纳个人数据判断宏观上的相关性。
+		首先在进行正式实验前需要你们完成一个有关家庭环境的调查问卷,完成问卷后我们就会开始正式的实验。（该实验意图为观察、分析、总结性别刻板印象与家庭环境的相关联程度而非实证二者的因果关系）。
+		<br/>
+		
+		【风险】<br/>该实验理论上不会出现什么风险尤其是物理上意义上的风险，实验操作中或许会因为需要注视电脑而使得眼睛酸痛，再者可能就是做完实验后会发觉自己存在性别刻板印象，心境上有些变化（大概）。<br/>
+		【报酬】<br/>报酬为10元人民币以+一份电子版关于性别刻板印象的详细介绍<br/>
+		【时间地点】<br/>北京师范大学后主楼15XX，实验具体时间私信联系。
+		【等等】<br/>我们在此承诺问卷只是为了收集实验数据，不会将私人资料用于不正当的地方。
+		</p>
+        <p><a href="" class="btn btn-info btn-large">了解更多 &raquo;</a></p>
+      </div>
+	   <!-- 欢迎参加我们的实验 end-->
+	   
+	    <!-- 知情同意 -->
+           <div>
+            <h2 class="text-center">知情同意</h2><br/>
+			  <div class="row" style="margin-top:10px;margin-bottom:10px;">
+			  <div class="span8 offset2">
+			  <ul>
+				<li>该实验由互助组小组负责实行</li><br/>
+				<li>操作人员设计人员均为北京师范大二本科生</li><br/>
+				<li>我们需要收集将通过问卷的形式收集一些关于您的家庭私人资料</li><br/>
+				<li>我们承诺不会将资料公开，但是有关您的私人资料也会被第三方也就是我们实验人员了解</li><br/>
+			    <li>并不是非常正规的实验设计及操作至少是和成熟的心理学研究者相比较而言还很不成熟</li><br/>
+				<li>实验成功性及得出有效结论的概率不是很有保障性</li><br/>
+				<li>操作性、实验性均不是很高，客观角度来看，实验可能达不到预期效果，和成熟心理研究者实验相比较而言。</li><br/>
+				<li>实验结果将会作为作业上交</li><br/>
+				<li>该实验的风险很小，或许可能做完实验后会得知自己性别刻板印象的存在而发生心境上的变化，可能会些许改变日后行为</li><br/>
+				<li>该实验为自愿参加</li><br/>
+			  </ul>
+			  </div>
+          </div>
+		<!-- 知情同意 end -->
+	  
+	  <!-- 问卷和实验的介绍-->
+      <div class="row" style="margin-top:10px;margin-bottom:100px;">
+        <div class="span6">
+          <h2 class="text-center">问卷介绍</h2>
+          <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;根据我们在这个世界上多年的摸爬滚打，我们发现家庭坏境和性别的刻板印象之间可能有很大的关联。比如越是贫困地区的家庭，重男轻女的可能性就越大，在现代化的地区，两性之间的关系就更为平等。本次研究主要关注的环境因素是被试童年时期的家庭生活压力大小，第一部分是关于生活压力来源，第二部分是整体的家庭氛围。</p>         
+		  <p style = "text-align:right;"><a class="btn btn-primary" href="https://bnupsych.asia.qualtrics.com/jfe/form/SV_a9TK5S52rInJuoR">开始问卷 &raquo;</a></p>
+        </div>
+        <div class="span6">
+          <h2 class="text-center">实验介绍</h2>
+          <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你的性别刻板印象究竟有多大？你的大脑可不会主动承认他是个“大男子主义”或是“田园女权”。但你瞒得过自己，瞒不过程序。本实验从内隐联想的角度，测量被试对性别的刻板印象，并对实验结果量化计分（详见数据处理部分）。</p>		  
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p style = "text-align:right;"><a class="btn btn-primary" href="https://research.millisecond.com/weicong1203/stereotypedimage.web">开始实验 &raquo;</a></p>
+       </div>
+      </div>
+	  <!-- 问卷和实验的介绍-->
+
+      <!-- 问卷和实验的入口
+      <div class="row" style="padding:30px;background-color:WhiteSmoke">
+        <div class="span2">
+          <img src="img/问卷.jpg" style="width:180px;height:180px;">
+        </div>
+        <div class="span3">
+		<p class="text-info lead"><strong>问卷入口</strong></p>
+		<p class="lead">
+		 您可以扫描左方二维码或点击下方链接参与问卷调查
+		</p>
+          <p style="color:#000000;margin-top:30px;margin-bottom:30px;">
+		【问卷的链接】
+		  </p>
+		</div>
+		<div class="span2 offset1">
+          <img src="img/程序.jpg" style="width:180px;height:180px;">
+        </div>
+		<div class="span3">
+		<p class="text-info lead"><strong>实验入口</strong></p>
+		<p class="lead">
+		您可以扫描左方二维码或点击下方链接进入实验程序
+		</p>
+          <p style="color:#000000;margin-top:30px;margin-bottom:30px;">
+		【程序的链接】
+		  </p>
+		</div>
+	  </div>
+      
+	  问卷和实验的入口 end-->
+	  
+	  
+	  <!-- 家庭环境 -->
+<!-- 这部分参考【模板3277】的首页，看不懂他的代码就算了，大概做成那个样子就行。那张一家四口的图在 作业-img 里 只要把图插进来，在图上加字，介绍家庭环境的定义影响啥的 -->
+	<div class="box">
+    <h2 class="word1">家庭环境</h2>
+	<p class="word2">
+	家庭环境有软环境、硬环境、内环境和外环境四部分<br/>他们对于一个人的一生有至关重要的影响作用<br/>
+	<p/>
+	<h2 class="word3">性别刻板印象</h2>
+	<p class="word4">
+	指的是人们对于男性和女性各自所存在的特征的<br/>
+	一种固化的认知。<br/>
+	<p/>
+	<h2 class="word5">家庭环境&性别刻板印象</h2>
+	<p class="word6">
+	家庭作为一个社会单位，<br/>
+	在孩子成长阶段有着无可替代的作用。<br/>
+	家庭对孩子成长的影响并不只是在性格上，<br/>
+	还有包括认知能力、情绪反应等各方面。<br/>
+	所以，我们小组运用了内隐联想的实验范式<br/>
+	尝试探究家庭环境和性别刻板印象的关系。<br/>
+	<p/>
+	
+    <img src="img/family.jpg">
+</div>
+
+	<!-- 家庭环境 end -->
+	
+	
+	
+	<!-- 性别刻板印象 -->
+<!-- 这部分参考【模板3236】的第二三页，同上，看不懂他的代码就算了，大概做成那个样子就行。一男一女的两张图在 作业-img 里 只要把图插进来，在图上加字，介绍刻板印象的定义影响啥的 -->
+		<!-- 男性 -->
+<div class="row" style="margin-top:100px;padding:30px;background-color:#828282">
+	<div class="span5 offset1">
+		<div class="about col-sm-6"><img class="img-responsive" src="img/man.png" alt="" /></div>
+	</div>
+	<div class="span4 ">
+		<br/><h2 class="text-center"><strong>男性</strong></h2><br/>
+		<ul class="lead">
+				<li>理智</li><br/>
+				<li>不擅长家务</li><br/>
+				<li>邋遢</li><br/>
+				<li>攻击性强</li><br/>
+				<li>喝酒</li><br/>
+				<li>粗心</li><br/>
+		</ul>
+	</div >
+</div >
+		<!-- 女性 -->
+<div class="row" style="padding:30px;background-color:#CDB38B">
+	<div class="span3 offset2">
+		<br/><h2 class="text-center"><strong>女性</strong></h2><br/>
+		<ul class="lead">
+				<li>亲社会高</li><br/>
+				<li>勤俭持家</li><br/>
+				<li>情绪化</li><br/>
+				<li>内向含蓄</li><br/>
+				<li>爱干净</li><br/>
+				<li>柔弱</li><br/>
+		</ul>
+	</div >
+	<div class="span5">
+		<div class="about col-sm-6"><img class="img-responsive" src="img/woman.png" alt="" /></div>
+	</div>
+</div >
+	<!-- 性别刻板印象 end -->
+	  
+	  
+	<!-- 成员介绍 -->
+    <!-- 成员介绍 end -->
+	<div class="row"style="margin-top:100px">
+	<h2 class="text-center">我们</h2><br/>
+	<p class="text-center">“失孤儿童互助组”的成员介绍和小组分工<p/><br/>
+	<div class="span3 text-center">
+		  <img src="img/王书剑.jpg" class="img-circle" style="width:180px;height:180px;"><br/>
+		  <br/><p class="text-info lead"><strong>王书剑</strong></p>
+		  <p>学号：201711010194<p/>
+		  <p>分工：问卷设计，整体调度与支援配合<p/>
+	</div>
+    <div class="span3 text-center">
+		  <img src="img/刘峻良.jpg" class="img-circle" style="width:180px;height:180px;"><br/>
+		  <br/><p class="text-info lead"><strong>刘峻良</strong></p>
+		  <p>学号：201711061217<p/>
+		  <p>分工：实验程序编写<p/>
+	</div>
+	<div class="span3 text-center">
+		  <img src="img/汤文佳.jpg" class="img-circle" style="width:180px;height:180px;"><br/>
+		  <br/><p class="text-info lead"><strong>汤文佳</strong></p>
+		  <p>学号：201711061143<p/>
+		  <p>分工：网页编程与整合<p/>
+	</div>
+	<div class="span3 text-center">
+		  <img src="img/张浩然.jpg" class="img-circle" style="width:180px;height:180px;"><br/>
+		  <br/><p class="text-info lead"><strong>张浩然</strong></p>
+		  <p>学号：201719060003<p/>
+		  <p>分工：网页文案与材料收集<p/>
+	</div>
+	</div>
+	<!-- 小组分工 -->
+    <!-- 小组分工 end -->
+	  
+	  
+	  <!-- 数据分析思路-->
+	  <div class="row" style="margin-top:100px;padding:30px;background-color:WhiteSmoke">	  
+	  <h2 class="text-center">数据分析思路</h2><br/>
+	  <dl class="dl-horizontal">
+			<dt>问卷部分</dt>
+			<dd style="margin-right:100px";>第一部分测量被试的家庭生活压力来源，计分采用李克特量表的五点计分方式，正向体现压力的问题从“从不”到“总是”分别计“1”到“5”分，如“我觉得母亲在干涉我做的每一件事”；负向体现压力的问题从“从不”到“总是”分别计“5”到“1”分，如“我能通过母亲的言谈举止感受到她很爱我”，将每一位亲属的得分加和得到各处压力来源的得分（A），除以亲属人数得到平均成绩（B）。第二部分测量整体家庭氛围，“否”、“可能会”、“是”分别计“1”、“2.5”、“5”分，加和得到家庭整体氛围压力得分（C）。</dd>
+			<br/>
+			<dt>实验部分</dt>
+			<dd>实验部分，主要计算六项得分<br/>
+				X：被试在第一次“女性——家庭”配对实验任务中的平均反应时<br/>
+				Y：被试在第一次“女性——事业”配对实验任务中的平均反应时<br/>
+				Z：被试在第二次“女性——家庭”配对实验任务中的平均反应时<br/>
+				W: 被试在第二次“女性——事业”配对实验任务中的平均反应时<br/>
+				M: 被试在整个第一个试次中反应时的标准差<br/>
+				M: 被试在整个第二个试次中反应时的标准差<br/>
+				用这六项数据计算最终得分合成数据S来表示被试的性别刻板印象水平<br/>
+				S=[(Y-X)/2M]+[(W-Z)/2N]<br/>
+			</dd>
+			<br/>
+			<dt>结果分析</dt>
+			<dd style="margin-right:100px">计算B+C与S之间的相关系数，考察家庭环境压力因素和人的性别刻板印象是否有相关关系；再计算不同亲属的A得到Ai，计算不同性别亲属的Ai之间是否有显著差异以及不同亲属的Ai和Ai之间的差异对S有无影响。</dd>
+	  </dl>
+	  </div>
+	  <!-- 数据分析思路 end-->
+
+	  
+	 
+	  <hr/>
+	  <!-- step 7 添加页脚-->
+      <footer>
+        <p>解释权所有@互助组</p>
+      </footer>
+	  <!-- step 7 end -->
+
+    </div> <!-- /container -->
+
+	<!--step 1.3 引入jquery和bootstrap的js文件 -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>
+
+<!--RGB颜色对照表 http://tool.oschina.net/commons?type=3 -->
